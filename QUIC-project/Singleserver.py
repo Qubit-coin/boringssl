@@ -6,7 +6,7 @@ def getIP():
 	s.connect(('8.8.8.8', 1))
 	return s.getsockname()[0]
 
-bssl_dir = os.path.expanduser('~/oqs/boringssl/build/tool/bssl')
+bssl_dir = os.path.expanduser('~/boringssl/build/tool/bssl')
 key_crt_dir = f'~/boringssl/QUIC-project/rsa/key_crt.pem'
 key_srv_dir = f'~/boringssl/QUIC-project/rsa/key_srv.pem'
 
